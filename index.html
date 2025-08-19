@@ -18,7 +18,7 @@
     />
   </head>
 
-  <body>
+  <body class="manrope-font">
     <!-- banner section starts here -->
     <header>
       <section
@@ -122,10 +122,29 @@
     </section>
 
     <!-- Great team section start here -->
-    <section class="max-w-[1250px] mx-auto">
-      <div class="left-div"></div>
-      <div class="right-div">
-        <h1 class="text-5xl text-[#1C1C1C]">Great Tea, Freshly Presented</h1>
+    <section
+      class="max-w-[1250px] mx-auto flex flex-col md:flex-row p-5 gap-12"
+    >
+      <div class="left-div h-full md:w-1/2 grid grid-cols-2 grid-rows-3 gap-7">
+        <div
+          class="bg-gradient-to-r from-[#ff0000] to-[#ff8938] opacity-10 rounded-xl"
+        ></div>
+        <div
+          class="row-span-2 bg-[#e6a6231a] rounded-xl flex justify-center items-center"
+        >
+          <img src="./images/fresh-1.png" alt="" class="p-8" />
+        </div>
+        <div
+          class="bg-[#5776391a] row-span-2 rounded-xl flex justify-center items-center"
+        >
+          <img src="./images/fresh-2.png" alt="" class="p-8" />
+        </div>
+        <div class="bg-gradient-to-r from-[#d9d9d9] to-[#ffffff00]"></div>
+      </div>
+      <div class="right-div h-full md:w-1/2">
+        <h1 id="teamHeading" class="text-5xl text-[#1C1C1C] font-bold">
+          Great Tea, Freshly Presented
+        </h1>
         <p class="text-[#777777] mt-[20px] mb-[30px]">
           The meaning of gong cha is chanese is to provide the best tea to
           emperor from all possessions . It represents the highest quality and
@@ -133,17 +152,38 @@
           appreciated by its custoers because of good words of mouth and unique
           customized service orginated from Taiwan.
         </p>
-        <h4 class="text-[#1c1c1c] text-[20px]">Unique Taste</h4>
+        <h4 class="text-[#1c1c1c] text-[20px] font-bold">Unique Taste</h4>
         <p class="text-[#777777] mt-[20px] mb-[30px]">
-          A Unique and different style from other teapots gives a luxurious and
-          minimalist impression
+          A Unique and different style from other teapots gives a <br />
+          luxurious and minimalist impression
         </p>
-        <h4 class="text-[#1c1c1c] text-[20px]">Premium Quality</h4>
+        <h4 class="text-[#1c1c1c] text-[20px] font-bold">Premium Quality</h4>
         <p class="text-[#777777] mt-[20px] mb-[30px]">
-          Premium Quality that makes tea more elegant and more durable when you
-          use it.
+          Premium Quality that makes tea more elegant and more <br />
+          durable when you use it.
         </p>
       </div>
     </section>
+
+    <!-- Meet our clients section -->
+    <section
+      class="clients h-[600px] max-w-[1250px] mx-auto mt-[100px] rounded-xl bg-gradient-to-l from-[#ff0000] to-[#ff8938]"
+    >
+      <div class="left-div ml-[70px] border-2 w-1/2">
+        <h1 class="text-5xl font-bold text-white">
+          Meet Our Super <br />Clients
+        </h1>
+        <p class="font-bold text-white mt-5 mb-8">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <button class="py-4 px-7 bg-white rounded-xl font-bold">
+          Show All
+        </button>
+      </div>
+      <div class="right-div"></div>
+    </section>
   </body>
+
 </html>
